@@ -1,0 +1,54 @@
+body {
+	background-color: #f1f1f1;
+	margin: 0 auto;
+	color: #fff;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #1f1f1f;
+}
+
+h1 {
+	padding: 30px;
+}
+
+#playerListArea,
+#ruleListArea,
+#mapListArea {
+	background-color: #1f1f1f;
+	width: 318px;
+	border-left: 1px solid #999;
+	border-top: 1px solid #999;
+	float: left;
+	min-height: 300px;
+	max-height: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#serverListArea {
+	border: 1px solid #999;
+	background-color: #1f1f1f;
+	clear: both;
+	padding: 10px;
+}
+
+#serverListArea a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#levelshot,
+#otherinfo {
+	margin: 30px;
+	padding: 10px;
+	border: 1px solid #fff;
+	color: #000;
+	background-color: #c5c5c5;
+	width: 238px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
